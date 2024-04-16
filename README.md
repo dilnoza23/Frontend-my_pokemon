@@ -1,28 +1,42 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+## Frontend My Pokemon Project
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+## Demo https://661e05b8480c9b8f2e3f8c82--cute-squirrel-a2f32e.netlify.app/
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+## Task
+The task for this project is to create a web application that displays a collection of Pokémon cards. Each card should be colored according to the Pokémon's primary type.
 
-Your application will also provide a search bar to filter pokemon.
+## Description
+This project is a web application built using ReactJS that displays a collection of Pokémon cards. The cards are fetched from the Pokémon API (`pokeapi.co`) and are dynamically colored based on each Pokémon's primary type. The application also provides pagination to navigate through the Pokémon collection.
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+## Installation
+To install and run the project locally, follow these steps:
 
-In order to perform the request to the API, you can use `Axios`.
+1. Clone the repository to your local machine:
+   ```
+   git clone <repository-url>
+   ```
 
-Your application needs to handle `errors`. (No internet/bad request.)
+2. Navigate to the project directory:
+   ```
+   cd pokemon-card-collection
+   ```
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+3. Install dependencies using npm or yarn:
+   ```
+   npm install
+   ```
+   or
+   ```
+   yarn install
+   ```
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+## Usage
+After installing the dependencies, you can start the development server:
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
-
-On the css/colors/design, you can be creative.
+```
+npm start
+```
+or
+```
+yarn start
+```
